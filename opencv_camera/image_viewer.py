@@ -18,6 +18,7 @@ class ImageViewer(Node):
         )
 
         self.cv_bridge = CvBridge()
+        self.get_logger().info("Image viewer node has started...")
 
     def on_image_received(self, msg):
         frame = self.cv_bridge.imgmsg_to_cv2(msg)

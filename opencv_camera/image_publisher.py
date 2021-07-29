@@ -24,6 +24,7 @@ class ImagePublisher(Node):
 
         self.cap = cv2.VideoCapture(0)
         self.cv_bridge = CvBridge()
+        self.get_logger().info("Image publisher node has started...")
 
     def publish_frame(self):
         ret, frame = self.cap.read()
