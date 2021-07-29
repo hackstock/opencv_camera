@@ -2,7 +2,7 @@
 This is a ROS2 package with a publisher node that uses OpenCV to 
 publish raw images from a camera onto a topic called `image_raw`.
 Since the package is based on OpenCV, any camera that's supported 
-in OpenCV can be used with this package.
+in OpenCV can be used with this package. Since this package publishes raw camera images, it can be used as the foundation for all computer vision related aspects of your robotics project.
 
 Features : 
 - publishing of raw camera images
