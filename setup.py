@@ -4,7 +4,7 @@ package_name = 'opencv_camera'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='0.0.1',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -13,10 +13,10 @@ setup(
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='pie',
-    maintainer_email='pie@todo.todo',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer='Edward Pie',
+    maintainer_email='hackstockpie@gmail.com',
+    description='Publishes raw camera images using OpenCV',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [

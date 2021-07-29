@@ -2,10 +2,10 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>opencv_camera</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="pie@todo.todo">pie</maintainer>
-  <license>TODO: License declaration</license>
+  <version>0.0.1</version>
+  <description>Publishes raw camera images using OpenCV</description>
+  <maintainer email="hackstockpie@gmail.com">Edward Pie</maintainer>
+  <license>MIT</license>
 
   <depend>rclpy</depend>
   <depend>image_transport</depend>
