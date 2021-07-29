@@ -20,6 +20,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'image_publisher = opencv_camera.image_publisher:main'
         ],
     },
 )
